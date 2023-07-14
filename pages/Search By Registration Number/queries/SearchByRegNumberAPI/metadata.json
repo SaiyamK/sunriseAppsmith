@@ -2,7 +2,7 @@
   "pluginType": "SAAS",
   "pluginId": "google-sheets-plugin",
   "unpublishedAction": {
-    "name": "ChartData",
+    "name": "SearchByRegNumberAPI",
     "datasource": {
       "name": "RWA Master Excel",
       "pluginId": "google-sheets-plugin",
@@ -13,7 +13,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Reports",
+    "pageId": "Search By Registration Number",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -33,13 +33,19 @@
           }
         },
         "projection": {
-          "data": []
+          "data": [
+            "S.NO",
+            "ADDRESS",
+            "NAME",
+            "MOBILE",
+            "AMOUNT"
+          ]
         },
         "queryFormat": {
-          "data": "RANGE"
+          "data": "ROWS"
         },
         "range": {
-          "data": "W232:AE232"
+          "data": ""
         },
         "sheetName": {
           "data": "Table 1"
@@ -63,29 +69,37 @@
         },
         "where": {
           "data": {
-            "condition": "AND",
+            "condition": "OR",
             "children": [
               {
-                "condition": "LT"
+                "condition": "EQ",
+                "value": "{{RegNoInput.text}}",
+                "key": "S.NO"
               }
             ]
           }
         }
       }
     },
-    "executeOnLoad": true,
-    "dynamicBindingPathList": [],
+    "executeOnLoad": false,
+    "dynamicBindingPathList": [
+      {
+        "key": "formData.where.data.children[0].value"
+      }
+    ],
     "isValid": true,
     "invalids": [],
     "messages": [],
-    "jsonPathKeys": [],
+    "jsonPathKeys": [
+      "RegNoInput.text"
+    ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2023-07-14T05:31:30Z"
+    "createdAt": "2023-07-14T05:50:27Z"
   },
-  "id": "Reports_ChartData",
+  "id": "Search By Registration Number_SearchByRegNumberAPI",
   "deleted": false,
-  "gitSyncId": "64b02862b65df204220ec8ce_64b0ddb268e38e35b13db288"
+  "gitSyncId": "64b02862b65df204220ec8ce_64b0e22368e38e35b13db29d"
 }
