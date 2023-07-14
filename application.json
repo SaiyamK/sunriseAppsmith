@@ -1,0 +1,28 @@
+{
+  "pages": [
+    {
+      "id": "Landing Page",
+      "isDefault": true
+    },
+    {
+      "id": "Search By Registration Number",
+      "isDefault": false
+    },
+    {
+      "id": "Reports",
+      "isDefault": false
+    }
+  ],
+  "viewMode": false,
+  "appIsExample": false,
+  "unreadCommentThreads": 0,
+  "color": "#FBF4ED",
+  "icon": "flag",
+  "unpublishedCustomJSLibs": [],
+  "publishedCustomJSLibs": [],
+  "evaluationVersion": 2,
+  "applicationVersion": 2,
+  "collapseInvisibleWidgets": true,
+  "isManualUpdate": false,
+  "deleted": false
+}
