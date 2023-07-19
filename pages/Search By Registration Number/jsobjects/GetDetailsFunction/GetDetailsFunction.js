@@ -4,6 +4,7 @@ export default {
 				SearchByRegNumberAPI.run()
 				const data = await SearchByRegNumberAPI.data
 				if (data.length>1 || data.length==0) {
+					Text12.text = 'Multiple Data or No Data Error'.toString();
 					return 'Multiple Data or No Data Error';
 				}
       const firstResult = data[0];
@@ -21,7 +22,8 @@ export default {
       return firstResult
     	} catch (error) {
 				console.error('An error occurred:', error);
-				return 'Error';
+				Text12.text = 'API Error'.toString();
+				return 'API Error';
     	}
   }
 }

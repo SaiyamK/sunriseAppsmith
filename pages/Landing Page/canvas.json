@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 490,
+          "bottomRow": 480,
           "containerStyle": "none",
           "snapRows": 124,
           "parentRowSpace": 1,
@@ -32,8 +32,8 @@
               "widgetName": "Logo",
               "displayName": "Image",
               "iconSVG": "/static/media/icon.30c8cbd442cce232b01ba2d434c53a53.svg",
-              "topRow": 4,
-              "bottomRow": 23,
+              "topRow": 3,
+              "bottomRow": 22,
               "parentRowSpace": 10,
               "type": "IMAGE_WIDGET",
               "hideCard": false,
@@ -42,7 +42,7 @@
               "parentColumnSpace": 20.078125,
               "dynamicTriggerPathList": [],
               "imageShape": "RECTANGLE",
-              "leftColumn": 4,
+              "leftColumn": 7,
               "dynamicBindingPathList": [
                 {
                   "key": "borderRadius"
@@ -52,7 +52,7 @@
               "key": "z78vvuiusl",
               "image": "",
               "isDeprecated": false,
-              "rightColumn": 13,
+              "rightColumn": 16,
               "objectFit": "contain",
               "widgetId": "8rl221zdzb",
               "isVisible": true,
@@ -77,8 +77,8 @@
                 "paragraph",
                 "label"
               ],
-              "topRow": 9,
-              "bottomRow": 16,
+              "topRow": 8,
+              "bottomRow": 15,
               "parentRowSpace": 10,
               "type": "TEXT_WIDGET",
               "hideCard": false,
@@ -88,7 +88,7 @@
               "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
               "parentColumnSpace": 20.078125,
               "dynamicTriggerPathList": [],
-              "leftColumn": 15,
+              "leftColumn": 18,
               "dynamicBindingPathList": [
                 {
                   "key": "truncateButtonColor"
@@ -105,7 +105,7 @@
               "text": "Sunrise Resident Welfare Association",
               "key": "6zghxl843p",
               "isDeprecated": false,
-              "rightColumn": 59,
+              "rightColumn": 62,
               "textAlign": "LEFT",
               "dynamicHeight": "AUTO_HEIGHT",
               "widgetId": "wknmqvfsd6",
@@ -119,11 +119,11 @@
               "isLoading": false,
               "mobileTopRow": 12,
               "responsiveBehavior": "fill",
-              "originalTopRow": 9,
+              "originalTopRow": 8,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
               "mobileLeftColumn": 17,
               "maxDynamicHeight": 9000,
-              "originalBottomRow": 16,
+              "originalBottomRow": 15,
               "fontSize": "3rem",
               "minDynamicHeight": 4
             },
@@ -137,8 +137,8 @@
                 "paragraph",
                 "label"
               ],
-              "topRow": 16,
-              "bottomRow": 20,
+              "topRow": 15,
+              "bottomRow": 19,
               "parentRowSpace": 10,
               "type": "TEXT_WIDGET",
               "hideCard": false,
@@ -148,7 +148,7 @@
               "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
               "parentColumnSpace": 20.078125,
               "dynamicTriggerPathList": [],
-              "leftColumn": 15,
+              "leftColumn": 18,
               "dynamicBindingPathList": [
                 {
                   "key": "truncateButtonColor"
@@ -165,7 +165,7 @@
               "text": "SOCIETY/WEST/2023/8902660",
               "key": "6zghxl843p",
               "isDeprecated": false,
-              "rightColumn": 31,
+              "rightColumn": 34,
               "textAlign": "LEFT",
               "dynamicHeight": "AUTO_HEIGHT",
               "widgetId": "0pa3cu5nny",
@@ -179,11 +179,11 @@
               "isLoading": false,
               "mobileTopRow": 18,
               "responsiveBehavior": "fill",
-              "originalTopRow": 16,
+              "originalTopRow": 15,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
               "mobileLeftColumn": 15,
               "maxDynamicHeight": 9000,
-              "originalBottomRow": 20,
+              "originalBottomRow": 19,
               "fontSize": "1rem",
               "minDynamicHeight": 4
             },
@@ -200,8 +200,8 @@
                 "click",
                 "submit"
               ],
-              "topRow": 32,
-              "bottomRow": 36,
+              "topRow": 31,
+              "bottomRow": 35,
               "parentRowSpace": 10,
               "type": "BUTTON_WIDGET",
               "hideCard": false,
@@ -213,7 +213,7 @@
                   "key": "onClick"
                 }
               ],
-              "leftColumn": 23,
+              "leftColumn": 26,
               "dynamicBindingPathList": [
                 {
                   "key": "buttonColor"
@@ -226,7 +226,7 @@
               "isDisabled": false,
               "key": "uvob6neme7",
               "isDeprecated": false,
-              "rightColumn": 39,
+              "rightColumn": 42,
               "isDefaultClickDisabled": true,
               "widgetId": "rkyjc1x0as",
               "minWidth": 120,
@@ -238,11 +238,11 @@
               "isLoading": false,
               "mobileTopRow": 32,
               "responsiveBehavior": "hug",
-              "originalTopRow": 32,
+              "originalTopRow": 31,
               "disabledWhenInvalid": false,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
               "mobileLeftColumn": 15,
-              "originalBottomRow": 36,
+              "originalBottomRow": 35,
               "buttonVariant": "PRIMARY",
               "placement": "CENTER"
             },
@@ -259,8 +259,8 @@
                 "click",
                 "submit"
               ],
-              "topRow": 45,
-              "bottomRow": 49,
+              "topRow": 44,
+              "bottomRow": 48,
               "parentRowSpace": 10,
               "type": "BUTTON_WIDGET",
               "hideCard": false,
@@ -272,7 +272,7 @@
                   "key": "onClick"
                 }
               ],
-              "leftColumn": 23,
+              "leftColumn": 26,
               "dynamicBindingPathList": [
                 {
                   "key": "buttonColor"
@@ -285,7 +285,7 @@
               "isDisabled": false,
               "key": "uvob6neme7",
               "isDeprecated": false,
-              "rightColumn": 39,
+              "rightColumn": 42,
               "isDefaultClickDisabled": true,
               "widgetId": "u8tb5fq8yx",
               "minWidth": 120,
@@ -297,11 +297,11 @@
               "isLoading": false,
               "mobileTopRow": 45,
               "responsiveBehavior": "hug",
-              "originalTopRow": 45,
+              "originalTopRow": 44,
               "disabledWhenInvalid": false,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
               "mobileLeftColumn": 23,
-              "originalBottomRow": 49,
+              "originalBottomRow": 48,
               "buttonVariant": "PRIMARY",
               "placement": "CENTER"
             }
