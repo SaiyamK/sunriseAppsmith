@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 380,
+          "bottomRow": 720,
           "containerStyle": "none",
           "snapRows": 82,
           "parentRowSpace": 1,
@@ -135,6 +135,63 @@
               "mobileLeftColumn": 12,
               "xAxisName": "Months",
               "chartType": "LINE_CHART"
+            },
+            {
+              "resetFormOnClick": false,
+              "boxShadow": "none",
+              "mobileBottomRow": 72,
+              "widgetName": "BackButton",
+              "onClick": "{{navigateTo('Landing Page', {}, 'SAME_WINDOW');}}",
+              "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+              "displayName": "Button",
+              "iconSVG": "/static/media/icon.7beb9123fb53027d9d6b778cdfe4caed.svg",
+              "searchTags": [
+                "click",
+                "submit"
+              ],
+              "topRow": 68,
+              "bottomRow": 72,
+              "parentRowSpace": 10,
+              "type": "BUTTON_WIDGET",
+              "hideCard": false,
+              "mobileRightColumn": 41,
+              "animateLoading": true,
+              "parentColumnSpace": 20.109375,
+              "dynamicTriggerPathList": [
+                {
+                  "key": "onClick"
+                }
+              ],
+              "leftColumn": 25,
+              "dynamicBindingPathList": [
+                {
+                  "key": "buttonColor"
+                },
+                {
+                  "key": "borderRadius"
+                }
+              ],
+              "text": "Back",
+              "isDisabled": false,
+              "key": "lalzn5q10w",
+              "isDeprecated": false,
+              "rightColumn": 41,
+              "isDefaultClickDisabled": true,
+              "widgetId": "s4kvub404o",
+              "minWidth": 120,
+              "isVisible": true,
+              "recaptchaType": "V3",
+              "version": 1,
+              "parentId": "0",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "mobileTopRow": 68,
+              "responsiveBehavior": "hug",
+              "disabledWhenInvalid": false,
+              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+              "mobileLeftColumn": 25,
+              "buttonVariant": "PRIMARY",
+              "placement": "CENTER"
             }
           ]
         },
