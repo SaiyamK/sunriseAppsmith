@@ -5,11 +5,15 @@
       "isDefault": true
     },
     {
-      "id": "Search By Registration Number",
+      "id": "Search By Registration",
       "isDefault": false
     },
     {
       "id": "Reports",
+      "isDefault": false
+    },
+    {
+      "id": "Payment By Registration",
       "isDefault": false
     }
   ],

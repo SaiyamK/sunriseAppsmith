@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "Search By Registration Number",
-    "slug": "search-by-registration-number",
+    "name": "Search By Registration",
+    "slug": "search-by-registration",
     "layouts": [
       {
         "viewMode": false,
@@ -104,7 +104,7 @@
               ],
               "labelStyle": "",
               "inputType": "TEXT",
-              "maxChars": "2",
+              "maxChars": "3",
               "isDisabled": false,
               "isRequired": true,
               "dynamicHeight": "FIXED",
@@ -1273,7 +1273,7 @@
         "layoutOnLoadActions": [],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Search By Registration Number",
+        "id": "Search By Registration",
         "deleted": false,
         "policies": [],
         "userPermissions": []

@@ -1,7 +1,7 @@
 {
   "unpublishedCollection": {
     "name": "GetDetailsFunction",
-    "pageId": "Search By Registration Number",
+    "pageId": "Search By Registration",
     "pluginId": "js-plugin",
     "pluginType": "JS",
     "actions": [],
@@ -9,7 +9,7 @@
     "variables": [],
     "userPermissions": []
   },
-  "id": "Search By Registration Number_GetDetailsFunction",
+  "id": "Search By Registration_GetDetailsFunction",
   "deleted": false,
   "gitSyncId": "64b02862b65df204220ec8ce_64b0e65268e38e35b13db2b6"
 }

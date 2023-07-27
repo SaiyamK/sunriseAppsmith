@@ -15,7 +15,7 @@
     },
     "pageId": "Reports",
     "actionConfiguration": {
-      "timeoutInMillisecond": 30000,
+      "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
       "selfReferencingDataPaths": [],
@@ -28,18 +28,20 @@
         },
         "pagination": {
           "data": {
-            "limit": "{{Table1.pageSize}}",
-            "offset": "{{Table1.pageOffset}}"
+            "limit": "500",
+            "offset": "0"
           }
         },
         "projection": {
-          "data": []
+          "data": [
+            "BALANCE"
+          ]
         },
         "queryFormat": {
-          "data": "RANGE"
+          "data": "ROWS"
         },
         "range": {
-          "data": "AV2:AV243"
+          "data": "AV2:AV232"
         },
         "sheetName": {
           "data": "Table 1"
@@ -73,22 +75,19 @@
         }
       }
     },
-    "executeOnLoad": false,
+    "executeOnLoad": true,
     "dynamicBindingPathList": [],
     "isValid": true,
     "invalids": [],
     "messages": [],
-    "jsonPathKeys": [
-      "Table1.pageOffset",
-      "Table1.pageSize"
-    ],
-    "userSetOnLoad": true,
+    "jsonPathKeys": [],
+    "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2023-07-19T11:12:22Z"
+    "createdAt": "2023-07-27T20:13:43Z"
   },
   "id": "Reports_AccountDataAPI",
   "deleted": false,
-  "gitSyncId": "64b02862b65df204220ec8ce_64b7c51634fb2d18b1c9cb8b"
+  "gitSyncId": "64b02862b65df204220ec8ce_64c2cff7f4c405246c7b04f2"
 }

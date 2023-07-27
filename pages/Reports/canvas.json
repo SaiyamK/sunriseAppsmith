@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 830,
+          "bottomRow": 810,
           "containerStyle": "none",
           "snapRows": 82,
           "parentRowSpace": 1,
@@ -53,7 +53,7 @@
               "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
               "parentColumnSpace": 20.078125,
               "dynamicTriggerPathList": [],
-              "leftColumn": 1,
+              "leftColumn": 11,
               "dynamicBindingPathList": [
                 {
                   "key": "boxShadow"
@@ -117,7 +117,7 @@
               },
               "key": "xing9jrbev",
               "isDeprecated": false,
-              "rightColumn": 33,
+              "rightColumn": 51,
               "widgetId": "4p0b3co0ix",
               "accentColor": "{{appsmith.theme.colors.primaryColor}}",
               "minWidth": 450,
@@ -149,8 +149,8 @@
                 "click",
                 "submit"
               ],
-              "topRow": 68,
-              "bottomRow": 72,
+              "topRow": 77,
+              "bottomRow": 81,
               "parentRowSpace": 10,
               "type": "BUTTON_WIDGET",
               "hideCard": false,
@@ -192,11 +192,133 @@
               "mobileLeftColumn": 25,
               "buttonVariant": "PRIMARY",
               "placement": "CENTER"
+            },
+            {
+              "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+              "mobileBottomRow": 34,
+              "widgetName": "AccountsChart",
+              "allowScroll": false,
+              "displayName": "Chart",
+              "iconSVG": "/static/media/icon.04227b3516da60d6462fe38c74f88261.svg",
+              "searchTags": [
+                "graph",
+                "visuals",
+                "visualisations"
+              ],
+              "topRow": 38,
+              "bottomRow": 71,
+              "parentRowSpace": 10,
+              "type": "CHART_WIDGET",
+              "hideCard": false,
+              "mobileRightColumn": 57,
+              "chartData": {
+                "15s0t9h1yq": {
+                  "seriesName": "",
+                  "data": "{{AccountDataAPI.data.map(item => ({\n  \"y\": item.BALANCE,\n  \"x\": item.rowIndex\n}))}}"
+                }
+              },
+              "animateLoading": true,
+              "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
+              "parentColumnSpace": 20.078125,
+              "dynamicTriggerPathList": [],
+              "leftColumn": 11,
+              "dynamicBindingPathList": [
+                {
+                  "key": "borderRadius"
+                },
+                {
+                  "key": "boxShadow"
+                },
+                {
+                  "key": "accentColor"
+                },
+                {
+                  "key": "fontFamily"
+                },
+                {
+                  "key": "chartData.15s0t9h1yq.data"
+                }
+              ],
+              "customFusionChartConfig": {
+                "type": "column2d",
+                "dataSource": {
+                  "data": [
+                    {
+                      "label": "Product1",
+                      "value": 20000
+                    },
+                    {
+                      "label": "Product2",
+                      "value": 22000
+                    },
+                    {
+                      "label": "Product3",
+                      "value": 32000
+                    }
+                  ],
+                  "chart": {
+                    "caption": "Sales Report",
+                    "xAxisName": "Product Line",
+                    "yAxisName": "Revenue($)",
+                    "theme": "fusion",
+                    "alignCaptionWithCanvas": 1,
+                    "captionFontSize": "24",
+                    "captionAlignment": "center",
+                    "captionPadding": "20",
+                    "captionFontColor": "#231F20",
+                    "legendIconSides": "4",
+                    "legendIconBgAlpha": "100",
+                    "legendIconAlpha": "100",
+                    "legendPosition": "top",
+                    "canvasPadding": "0",
+                    "chartLeftMargin": "20",
+                    "chartTopMargin": "10",
+                    "chartRightMargin": "40",
+                    "chartBottomMargin": "10",
+                    "xAxisNameFontSize": "14",
+                    "labelFontSize": "12",
+                    "labelFontColor": "#716e6e",
+                    "xAxisNameFontColor": "#716e6e",
+                    "yAxisNameFontSize": "14",
+                    "yAxisValueFontSize": "12",
+                    "yAxisValueFontColor": "#716e6e",
+                    "yAxisNameFontColor": "#716e6e"
+                  }
+                }
+              },
+              "key": "bwlpo097wu",
+              "isDeprecated": false,
+              "rightColumn": 51,
+              "widgetId": "e2ymttuldy",
+              "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+              "minWidth": 450,
+              "isVisible": true,
+              "version": 1,
+              "parentId": "0",
+              "labelOrientation": "auto",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "mobileTopRow": 2,
+              "responsiveBehavior": "fill",
+              "yAxisName": "Available",
+              "chartName": "AccountDataAPI",
+              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+              "mobileLeftColumn": 33,
+              "xAxisName": "Timeline",
+              "chartType": "AREA_CHART"
             }
           ]
         },
         "layoutOnLoadActions": [
           [
+            {
+              "id": "Reports_AccountDataAPI",
+              "name": "AccountDataAPI",
+              "confirmBeforeExecute": false,
+              "pluginType": "SAAS",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            },
             {
               "id": "Reports_CollectionDataAPI",
               "name": "CollectionDataAPI",
