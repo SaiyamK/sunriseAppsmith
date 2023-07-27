@@ -192,7 +192,7 @@
               "boxShadow": "none",
               "mobileBottomRow": 36,
               "widgetName": "SearchByRegNoButton",
-              "onClick": "{{navigateTo('Search By Registration Number', {}, 'SAME_WINDOW');}}",
+              "onClick": "{{navigateTo('Search By Registration', {}, 'SAME_WINDOW');}}",
               "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
               "displayName": "Button",
               "iconSVG": "/static/media/icon.7beb9123fb53027d9d6b778cdfe4caed.svg",

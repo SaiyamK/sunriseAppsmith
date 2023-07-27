@@ -88,7 +88,7 @@
             {
               "boxShadow": "none",
               "iconSVG": "/static/media/icon.d0ce957b6c4640f8a7418ce846ee200e.svg",
-              "topRow": 19,
+              "topRow": 18,
               "labelWidth": 5,
               "type": "INPUT_WIDGET_V2",
               "animateLoading": true,
@@ -125,7 +125,7 @@
                 "number",
                 "textarea"
               ],
-              "bottomRow": 26,
+              "bottomRow": 25,
               "parentRowSpace": 10,
               "autoFocus": false,
               "hideCard": false,
@@ -1069,8 +1069,8 @@
                         "click",
                         "submit"
                       ],
-                      "topRow": 18,
-                      "bottomRow": 22,
+                      "topRow": 17,
+                      "bottomRow": 21,
                       "type": "BUTTON_WIDGET",
                       "hideCard": false,
                       "mobileRightColumn": 47,
@@ -1080,7 +1080,7 @@
                           "key": "onClick"
                         }
                       ],
-                      "leftColumn": 46,
+                      "leftColumn": 44,
                       "dynamicBindingPathList": [
                         {
                           "key": "buttonColor"
@@ -1093,7 +1093,7 @@
                       "isDisabled": false,
                       "key": "lalzn5q10w",
                       "isDeprecated": false,
-                      "rightColumn": 62,
+                      "rightColumn": 60,
                       "isDefaultClickDisabled": true,
                       "widgetId": "t5sihw4fc9",
                       "buttonStyle": "PRIMARY",
