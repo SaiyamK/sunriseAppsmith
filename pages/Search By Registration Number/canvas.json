@@ -282,7 +282,7 @@
                       "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
                       "parentColumnSpace": 13.804931640625,
                       "dynamicTriggerPathList": [],
-                      "leftColumn": 36,
+                      "leftColumn": 38,
                       "dynamicBindingPathList": [
                         {
                           "key": "truncateButtonColor"
@@ -299,7 +299,7 @@
                       "text": "",
                       "key": "aduu834p9s",
                       "isDeprecated": false,
-                      "rightColumn": 59,
+                      "rightColumn": 61,
                       "textAlign": "CENTER",
                       "dynamicHeight": "AUTO_HEIGHT",
                       "widgetId": "vszbumruwc",
@@ -402,7 +402,7 @@
                       "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
                       "parentColumnSpace": 13.804931640625,
                       "dynamicTriggerPathList": [],
-                      "leftColumn": 36,
+                      "leftColumn": 38,
                       "dynamicBindingPathList": [
                         {
                           "key": "truncateButtonColor"
@@ -419,7 +419,7 @@
                       "text": "",
                       "key": "aduu834p9s",
                       "isDeprecated": false,
-                      "rightColumn": 59,
+                      "rightColumn": 61,
                       "textAlign": "CENTER",
                       "dynamicHeight": "AUTO_HEIGHT",
                       "widgetId": "c4wv5pyfes",
@@ -522,7 +522,7 @@
                       "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
                       "parentColumnSpace": 13.804931640625,
                       "dynamicTriggerPathList": [],
-                      "leftColumn": 36,
+                      "leftColumn": 38,
                       "dynamicBindingPathList": [
                         {
                           "key": "truncateButtonColor"
@@ -539,7 +539,7 @@
                       "text": "",
                       "key": "aduu834p9s",
                       "isDeprecated": false,
-                      "rightColumn": 59,
+                      "rightColumn": 61,
                       "textAlign": "CENTER",
                       "dynamicHeight": "AUTO_HEIGHT",
                       "widgetId": "rruo1h15i3",
@@ -642,7 +642,7 @@
                       "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
                       "parentColumnSpace": 13.804931640625,
                       "dynamicTriggerPathList": [],
-                      "leftColumn": 36,
+                      "leftColumn": 38,
                       "dynamicBindingPathList": [
                         {
                           "key": "truncateButtonColor"
@@ -659,7 +659,7 @@
                       "text": "",
                       "key": "aduu834p9s",
                       "isDeprecated": false,
-                      "rightColumn": 59,
+                      "rightColumn": 61,
                       "textAlign": "CENTER",
                       "dynamicHeight": "AUTO_HEIGHT",
                       "widgetId": "5a8shomfgm",
@@ -762,7 +762,7 @@
                       "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
                       "parentColumnSpace": 13.804931640625,
                       "dynamicTriggerPathList": [],
-                      "leftColumn": 36,
+                      "leftColumn": 38,
                       "dynamicBindingPathList": [
                         {
                           "key": "truncateButtonColor"
@@ -779,7 +779,7 @@
                       "text": "",
                       "key": "aduu834p9s",
                       "isDeprecated": false,
-                      "rightColumn": 59,
+                      "rightColumn": 61,
                       "textAlign": "CENTER",
                       "dynamicHeight": "AUTO_HEIGHT",
                       "widgetId": "j0rugt65ed",
@@ -1260,9 +1260,11 @@
               "isLoading": false,
               "mobileTopRow": 68,
               "responsiveBehavior": "hug",
+              "originalTopRow": 68,
               "disabledWhenInvalid": false,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
               "mobileLeftColumn": 26,
+              "originalBottomRow": 72,
               "buttonVariant": "PRIMARY",
               "placement": "CENTER"
             }

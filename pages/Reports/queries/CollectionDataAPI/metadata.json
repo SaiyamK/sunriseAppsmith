@@ -2,7 +2,7 @@
   "pluginType": "SAAS",
   "pluginId": "google-sheets-plugin",
   "unpublishedAction": {
-    "name": "Insert_Table_11",
+    "name": "CollectionDataAPI",
     "datasource": {
       "name": "RWA Master Excel",
       "pluginId": "google-sheets-plugin",
@@ -13,7 +13,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Landing Page",
+    "pageId": "Reports",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -21,16 +21,25 @@
       "selfReferencingDataPaths": [],
       "formData": {
         "command": {
-          "data": "INSERT_ONE"
+          "data": "FETCH_MANY"
         },
         "entityType": {
           "data": "ROWS"
         },
-        "queryFormat": {
-          "data": "ROWS"
+        "pagination": {
+          "data": {
+            "limit": "20",
+            "offset": "0"
+          }
         },
-        "rowObjects": {
-          "data": "{{(Table1.newRow || {})}}"
+        "projection": {
+          "data": []
+        },
+        "queryFormat": {
+          "data": "RANGE"
+        },
+        "range": {
+          "data": "F235:AE235"
         },
         "sheetName": {
           "data": "Table 1"
@@ -41,29 +50,42 @@
         "smartSubstitution": {
           "data": true
         },
+        "sortBy": {
+          "data": [
+            {
+              "column": "",
+              "order": "Ascending"
+            }
+          ]
+        },
         "tableHeaderIndex": {
           "data": "1"
+        },
+        "where": {
+          "data": {
+            "condition": "AND",
+            "children": [
+              {
+                "condition": "LT"
+              }
+            ]
+          }
         }
       }
     },
-    "executeOnLoad": false,
-    "dynamicBindingPathList": [
-      {
-        "key": "formData.rowObjects.data"
-      }
-    ],
+    "executeOnLoad": true,
+    "dynamicBindingPathList": [],
     "isValid": true,
     "invalids": [],
     "messages": [],
-    "jsonPathKeys": [
-      "(Table1.newRow || {})"
-    ],
+    "jsonPathKeys": [],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
-    "userPermissions": []
+    "userPermissions": [],
+    "createdAt": "2023-07-14T05:31:30Z"
   },
-  "id": "Landing Page_Insert_Table_11",
+  "id": "Reports_CollectionDataAPI",
   "deleted": false,
-  "gitSyncId": "64b02862b65df204220ec8ce_64b029d5b65df204220ec8e1"
+  "gitSyncId": "64b02862b65df204220ec8ce_64b0ddb268e38e35b13db288"
 }

@@ -2,7 +2,7 @@
   "pluginType": "SAAS",
   "pluginId": "google-sheets-plugin",
   "unpublishedAction": {
-    "name": "Update_Table_11",
+    "name": "AccountDataAPI",
     "datasource": {
       "name": "RWA Master Excel",
       "pluginId": "google-sheets-plugin",
@@ -13,24 +13,33 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Landing Page",
+    "pageId": "Reports",
     "actionConfiguration": {
-      "timeoutInMillisecond": 10000,
+      "timeoutInMillisecond": 30000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
       "selfReferencingDataPaths": [],
       "formData": {
         "command": {
-          "data": "UPDATE_ONE"
+          "data": "FETCH_MANY"
         },
         "entityType": {
           "data": "ROWS"
         },
-        "queryFormat": {
-          "data": "ROWS"
+        "pagination": {
+          "data": {
+            "limit": "{{Table1.pageSize}}",
+            "offset": "{{Table1.pageOffset}}"
+          }
         },
-        "rowObjects": {
-          "data": "{{Table1.updatedRow}}"
+        "projection": {
+          "data": []
+        },
+        "queryFormat": {
+          "data": "RANGE"
+        },
+        "range": {
+          "data": "AV2:AV243"
         },
         "sheetName": {
           "data": "Table 1"
@@ -41,29 +50,45 @@
         "smartSubstitution": {
           "data": true
         },
+        "sortBy": {
+          "data": [
+            {
+              "column": "",
+              "order": "Ascending"
+            }
+          ]
+        },
         "tableHeaderIndex": {
           "data": "1"
+        },
+        "where": {
+          "data": {
+            "condition": "AND",
+            "children": [
+              {
+                "condition": "LT"
+              }
+            ]
+          }
         }
       }
     },
     "executeOnLoad": false,
-    "dynamicBindingPathList": [
-      {
-        "key": "formData.rowObjects.data"
-      }
-    ],
+    "dynamicBindingPathList": [],
     "isValid": true,
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "Table1.updatedRow"
+      "Table1.pageOffset",
+      "Table1.pageSize"
     ],
-    "userSetOnLoad": false,
+    "userSetOnLoad": true,
     "confirmBeforeExecute": false,
     "policies": [],
-    "userPermissions": []
+    "userPermissions": [],
+    "createdAt": "2023-07-19T11:12:22Z"
   },
-  "id": "Landing Page_Update_Table_11",
+  "id": "Reports_AccountDataAPI",
   "deleted": false,
-  "gitSyncId": "64b02862b65df204220ec8ce_64b029d5b65df204220ec8e2"
+  "gitSyncId": "64b02862b65df204220ec8ce_64b7c51634fb2d18b1c9cb8b"
 }
