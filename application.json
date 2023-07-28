@@ -11,10 +11,6 @@
     {
       "id": "Reports",
       "isDefault": false
-    },
-    {
-      "id": "Payment By Registration",
-      "isDefault": false
     }
   ],
   "viewMode": false,
@@ -25,8 +21,8 @@
       "type": "FIXED"
     }
   },
-  "color": "#FBF4ED",
-  "icon": "flag",
+  "color": "#D6D1F2",
+  "icon": "server",
   "unpublishedAppLayout": {
     "type": "FLUID"
   },

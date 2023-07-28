@@ -33,13 +33,7 @@
           }
         },
         "projection": {
-          "data": [
-            "S.NO",
-            "ADDRESS",
-            "NAME",
-            "MOBILE",
-            "AMOUNT"
-          ]
+          "data": []
         },
         "queryFormat": {
           "data": "ROWS"
