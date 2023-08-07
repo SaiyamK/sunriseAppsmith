@@ -301,7 +301,7 @@
               "mobileTopRow": 2,
               "responsiveBehavior": "fill",
               "yAxisName": "Available",
-              "chartName": "AccountDataAPI",
+              "chartName": "AccountBalance",
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
               "mobileLeftColumn": 33,
               "xAxisName": "Timeline",
